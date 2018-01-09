@@ -1,5 +1,8 @@
 # Hacks-Life-
 This repo is devoted to some amazing tips and tricks for solving some challenging situations in tech where we stuck. Explore this repo . It is open to the collaboration and is under ongoing development
+### Version Problem :
+<br /> Sometimes , it happens when we install some library or any software and run it . It causes an error that version has changed or this module has been changed due to new version. So in such solutions u just need to uninstall the current version and just install the previous version
+<br />Type : `npm install package_name@version_number`
 
 ### Export VERY LARGE FILE(>2GB) from mysql :
 <br /> Follow the below instructions :
