@@ -3,7 +3,7 @@ This repo is devoted to some amazing tips and tricks for solving some challengin
 ## Problem in apache server running :
 <br />You can go to /etc/apache2
 <br /> Type `sudo journalctl | tail` : It will tell u there error
-<br / > If still not work , do the following :
+<br /> If still not work , do the following :
 ```
 The problem is because some configuration files are deleted, you have to reinstall it.
 
