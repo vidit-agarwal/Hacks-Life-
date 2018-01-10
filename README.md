@@ -1,5 +1,16 @@
 # Hacks@Life!
 This repo is devoted to some amazing tips and tricks for solving some challenging situations in tech where we stuck. Explore this repo . It is open to the collaboration and is under ongoing development
+## Problem in apache server running :
+<br />You can go to /etc/apache2
+<br /> Type `sudo journalctl | tail` : It will tell u there error
+<br / > If still not work , do the following :
+```
+The problem is because some configuration files are deleted, you have to reinstall it.
+
+sudo apt-get -o DPkg::Options::="--force-confmiss" --reinstall install apache2
+sudo apt-get purge apache2
+sudo apt-get install apache2
+```
 ### Version Problem :
 <br /> Sometimes , it happens when we install some library or any software and run it . It causes an error that version has changed or this module has been changed due to new version. So in such solutions u just need to uninstall the current version and just install the previous version
 <br />Type : `npm install package_name@version_number`
